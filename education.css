@@ -1,0 +1,86 @@
+/* Educational Section */
+.education-container {
+  display: flex;
+  gap: 20px;
+  background-color: #f4f1ea;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin: 40px auto;
+  max-width: 1000px;
+  flex-wrap: wrap;
+}
+
+.edu-img {
+  width: 120px;
+  height: auto;
+  align-self: flex-start;
+  border-radius: 10px;
+}
+
+.edu-table-box {
+  flex: 1;
+}
+
+.section-heading {
+  font-size: 26px;
+  color: #4b3f72;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.edu-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.edu-table th {
+  background-color: #6b4226;
+  color: #ffffff;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.edu-table td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #ccc;
+  font-size: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.edu-table tr:nth-child(even) {
+  background-color: #f9f6f1;
+}
+.back-btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5e3023;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #8c3a2c;
+  transform: scale(1.05);
+}
+table tbody tr:hover {
+  background-color: #f3e9dc; /* light beige to match your website */
+
+  transition: background-color 0.3s ease;
+}

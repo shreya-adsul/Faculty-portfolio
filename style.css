@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fefae0;
+  color: #4d4d4d;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #c4896f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.navbar .logo{
+color: white;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #65343b;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #faedcd;
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #7e4d27;
+  object-fit: cover;
+}
+
+.intro-text h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #9d5b1abb;
+}
+
+.intro-text p {
+  max-width: 600px;
+}
+
+/* Main Content */
+.main-section {
+  padding: 2rem;
+}
+
+.about-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about-details .card h3{
+   color: #5e3023 !important
+}
+
+/* Cards */
+.section-spacer {
+  height: 2rem;
+}
+
+.about-details .card h3{
+      color: #794008af ;
+}
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e9edc9;
+  border-left: 6px solid #d4a373;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #5e3023 !important;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #faedcd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+.card h3{
+  color: #5e3023
+}
+.subsection h3 {
+  margin-top: 1rem;
+  color: #0e0700bb;
+}
+
+.card ul {
+  padding-left: 1.2rem;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+}
+
