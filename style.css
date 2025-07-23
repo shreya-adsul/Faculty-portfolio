@@ -122,4 +122,67 @@ color: white;
 .card li {
   margin-bottom: 0.5rem;
 }
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  header.navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar .logo {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .achievements-container,
+  .card-section,
+  .course-container,
+  main {
+    padding: 10px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  table {
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .edu-table {
+    width: 100%;
+  }
+
+  .course-section h2 {
+    font-size: 20px;
+  }
+
+  .course-card {
+    padding: 10px;
+  }
+
+  .course-section {
+    padding: 10px 0;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 8px;
+    text-align: center;
+  }
+}
 
