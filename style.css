@@ -12,6 +12,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 .navbar .logo{
@@ -122,67 +123,70 @@ color: white;
 .card li {
   margin-bottom: 0.5rem;
 }
+/* Mobile View Styles */
 @media (max-width: 768px) {
-  body {
-    padding: 10px;
-    font-size: 16px;
+  .main-section {
+    padding: 20px;
   }
 
-  header.navbar {
+  .profile-header {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-  }
-
-  .navbar .logo {
-    font-size: 24px;
     text-align: center;
   }
 
-  .navbar ul {
-    flex-direction: column;
-    gap: 10px;
+  .profile-photo {
+    width: 180px;
+    height: auto;
+    margin-bottom: 10px;
   }
 
-  .achievements-container,
-  .card-section,
-  .course-container,
-  main {
-    padding: 10px;
+  .intro-text h1 {
+    font-size: 24px;
   }
 
   .card {
-    margin-bottom: 20px;
-    padding: 12px;
-    font-size: 15px;
+    width: 95%;
+    max-width: 100%;
+    margin: 15px auto;
+    padding: 20px;
+    box-sizing: border-box;
   }
 
-  table {
-    font-size: 14px;
-    overflow-x: auto;
-    display: block;
+  .about-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .edu-table {
-    width: 100%;
+  .subsection h3 {
+    font-size: 18px;
   }
 
-  .course-section h2 {
-    font-size: 20px;
-  }
-
-  .course-card {
+   .navbar {
+    flex-direction: column;
+    align-items: flex-start;
     padding: 10px;
   }
 
-  .course-section {
-    padding: 10px 0;
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
   }
 
-  footer {
-    font-size: 14px;
-    padding: 8px;
-    text-align: center;
+  .nav-links li {
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #f0e6d6;
+    border-radius: 5px;
+    color: black !important; 
   }
 }
 
