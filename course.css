@@ -87,5 +87,29 @@ footer {
   border-radius: 25px;
   font-weight: 500;
 }
+ @media screen and (max-width: 768px) {
+ 
+  body {
+    font-size: 15px; /* base font size for mobile */
+    line-height: 1.6;
+  }
 
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p, li, a, td, th {
+    font-size: 14px;
+  }
+
+  
+}
 

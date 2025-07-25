@@ -10,6 +10,43 @@
   max-width: 1000px;
   flex-wrap: wrap;
 }
+.navbar {
+  background-color: #c4896f;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.navbar .logo{
+color: white;
+}
+
+.logo {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  font-size: 19px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #65343b;
+}
+
 
 .edu-img {
   width: 120px;
@@ -84,3 +121,49 @@ table tbody tr:hover {
 
   transition: background-color 0.3s ease;
 }
+@media(max-width: 768px)
+{
+  .navbar {
+    flex-direction: column;
+      align-items: flex-start; 
+    padding: 10px;
+    gap: 5px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+     align-items: flex-start; 
+    gap: 6px;
+  }
+
+  .nav-links a {
+    
+    width: fit-content;
+    font-size: 13px !important
+    padding: 6px 10px;
+  }
+}
+  @media screen and (max-width: 768px) {
+ 
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p, li, a, td, th {
+    font-size: 14px;
+  }
+
+ 
+
+ 
+}
+
