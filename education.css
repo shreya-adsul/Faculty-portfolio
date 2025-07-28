@@ -36,7 +36,7 @@ color: white;
 }
 
 .nav-links li a {
-  font-size: 19px;
+  
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -127,7 +127,8 @@ table tbody tr:hover {
     padding: 20px;
   }
 
-  .navbar {
+  
+   .navbar {
     flex-direction: column;
       align-items: flex-start; 
     padding: 10px;
@@ -143,8 +144,33 @@ table tbody tr:hover {
   .nav-links a {
     
     width: fit-content;
-    font-size: 13px !important
+    font-size: 13px;
     padding: 6px 10px;
   }
-}
  
+}
+
+  @media screen and (max-width: 768px) {
+ 
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  p, li, a, td, th {
+    font-size: 14px;
+  }
+
+ 
+
+ 
+}
+
